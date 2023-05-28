@@ -1,5 +1,4 @@
 :root {
-  font-family: 'Roboto Mono', monospace;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,11 +14,8 @@
 }
 
 body {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
-  min-width: 320px;
   min-height: 100vh;
-
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  
-  background: rgb(0,0,0);
+  background-color: #242424;
 }
